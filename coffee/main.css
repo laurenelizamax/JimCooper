@@ -1,0 +1,36 @@
+body {
+  background-image: url("shop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 1024px;
+}
+h1 {
+  font-size: 75px;
+}
+.pageHeader {
+  text-align: center;
+  color: white;
+}
+.coffeeshop {
+  align-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shop {
+  display: flex;
+  margin: 30px;
+  flex-basis: 30%;
+  font-size: 15px;
+  background-color: white;
+  opacity: 0.6;
+  font-weight: bold;
+  margin: 100px 100px 20px 100px;
+
+  max-width: 12em;
+}
